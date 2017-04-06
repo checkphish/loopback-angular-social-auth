@@ -1,0 +1,47 @@
+{
+  "name": "user",
+  "base": "User",
+  "idInjection": true,
+  "properties": {
+    "id": {
+      "type": "number",
+      "required": false
+    },
+    "email": {
+      "type": "string",
+      "required": false
+    },
+    "username": {
+      "type": "string",
+      "required": false
+    },
+    "role": {
+      "type": "string",
+      "required": false
+    },
+    "provider": {
+      "type": "string",
+      "required": false
+    },
+    "googleId": {
+      "type": "string",
+      "required": false
+    },
+    "linkedinId": {
+      "type": "string",
+      "required": false
+    }
+  },
+  
+  "validations": [],
+  "relations": {},
+  "acls": [
+    {
+      "accessType": "READ",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "ALLOW"
+    }
+  ],
+  "methods": {}
+}

@@ -1,0 +1,12 @@
+{
+	"google": {
+		"clientID": "",
+		"clientSecret": "",
+		"callbackURL": "/auth/google/callback"
+	},
+	"linkedin" : {
+		"clientID": "",
+		"clientSecret": "",
+		"callbackURL": "/auth/linkedin/callback"
+	}
+}

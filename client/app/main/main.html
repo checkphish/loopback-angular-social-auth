@@ -1,0 +1,19 @@
+<div ng-include="'components/navbar/navbar.html'"></div>
+
+<header class="hero-unit" id="banner">
+  <div class="container">
+    <h1 ng-if="currentUser.username">Hello {{currentUser.username}}</h1>
+    
+  </div>
+</header>
+
+<div class="container" style="text-align: center" ng-if="!currentUser.username">
+	<br><br><br><br><br><br><br><br>
+	<h1>This Is A Landing Page.</h1>
+</div>
+
+<footer class="footer">
+  <div class="container">
+      
+  </div>
+</footer>
