@@ -5,8 +5,8 @@ We couldn't find one. We decided to do one for ourselves. Hope others find it us
 via pull requests  
 
 ```
-$ git clone 
-$ cd loopback-example-user-management
+$ git clone https://github.com/checkphish/loopback-angular-social-auth.git
+$ cd loopback-angular-social-auth
 $ npm install
 $ bower install
 $ node .
