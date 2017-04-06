@@ -14,10 +14,6 @@ $ node .
 
 - [Project Layout]()
 
-###### Notes
-- You will need to server/datasource.json for email related features
-- If you're using GMail, you can simply [replace the user and pass](https://github.com/strongloop/loopback-example-user-management/blob/master/server/datasources.json#L19-L20) with your own credentials.
-- With GMail, you might need to temporarily allow "less secure" apps to access you email account. See [Allowing less secure apps to access your account](https://support.google.com/accounts/answer/6010255) for more information.
 
 ## Project features
 - Passport JWT authentication
@@ -34,6 +30,11 @@ $ node .
 - `server/datasources.json` contains the datasource configurations. Here is where we add an email datasource.
 - `server/model-config.json` contains the all the model configurations. Here is where we configure the extended user model (lowercase 'u') and the email model. The rest of the models are all built-in LoopBack models.
 -  server/auth/auth.config.json contains  credentials for google and linkedin 
+
+###### Notes
+- You will need to change server/datasource.json for email related features
+- If you're using GMail, you can simply [replace the user and pass](https://github.com/strongloop/loopback-example-user-management/blob/master/server/datasources.json#L19-L20) with your own credentials.
+- With GMail, you might need to temporarily allow "less secure" apps to access you email account. See [Allowing less secure apps to access your account](https://support.google.com/accounts/answer/6010255) for more information.
 
 
 ###### Todo
